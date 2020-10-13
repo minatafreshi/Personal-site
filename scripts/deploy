@@ -1,0 +1,16 @@
+#! /bin/bash
+
+echo "Cleaning up..."
+rm ./public -rf
+rm ./.tmp
+echo "Compiling..."
+mkdir -p .tmp
+hugo -D
+touch ./public
+echo "Creating the package..."
+tar zcf .tmp/package.tar.gz ./public
+echo "Uploading the package..."
+scp .tmp/package.tar.gz mina@core.lxsameer.com:/home/mina/tmp/package.tar.gz
+echo "Running remote commands..."
+ssh mina@core.lxsameer.com 'bash -s' < ./scripts/remote.sh
+echo "Done!"
