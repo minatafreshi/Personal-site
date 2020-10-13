@@ -1,0 +1,69 @@
+# showcase
+showcase:
+  enable: true
+  title: "Hi, I’m Mina."
+  subtitle: "I'M a Software Engineer"
+  description: "For now, I work at <a target='_blank' href='https://pep.co.ir/'>Pasargad Electronic Peyment</a>, a Financial Group in Iran as a Back-end developer."
+  image:
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase@2x.png"
+  imageMobile:
+    x: "img/showcase/showcase-mobile.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "mailto:mina@tafreshi.me"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/mina-tafreshi"
+
+    - icon: "github"
+      URL: "https://github.com/minatafreshi"
+
+    - icon: "twitter"
+      URL: "https://twitter.com/mina_tafreshi"
+
+    - icon: "soundcloud"
+      URL: "https://soundcloud.com/minatafreshi"
+
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: "3 years of experience working with software development teams.
+                I'm a Software engineer who loves Anime, Music, and Coffee.
+                Maybe you guessed that I'm a free software fan and freedom is valuable for me in any form especially in Softwares."
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Islamic Azad University of Karaj"
+      year: "2017-2021"
+      degree: "Computer Engineering"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/mina-tafreshi"
+
+
+  items:
+    - title: "Back-end Developer"
+      company: "Pasargad Electronic Peyment"
+      duration: "Jul 2020 - Present"
+
+    - title: "Jr. Back-End Developer"
+      company: "Sazito"
+      duration: "Apr 2019 - Jul 2019"
+
+    - title: "Jr. Back-End Developer"
+      company: "IoTree"
+      duration: "Feb 2018 - Apr 2019"
